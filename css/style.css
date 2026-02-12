@@ -446,6 +446,21 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
+  /* Default size for mobile/small screens (e.g., fill the area) */
+.img-responsive-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+/* Only for Large Devices (Desktops, 992px and up) */
+@media (min-width: 992px) {
+    .img-responsive-bg {
+        background-size: 75% !important;
+        padding-top: 500px; /* Moves content down on desktop */
+    }
+}
+
 .container {
   width: 100%;
   padding-right: 15px;
