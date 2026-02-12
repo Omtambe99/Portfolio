@@ -12261,6 +12261,18 @@ textarea.form-control {
     margin-bottom: 20px;
   }
 }
+.marging {
+  /* font-size: 40px; */
+  margin: 0.75rem;
+  /* transform: scaleX(1.2);  */
+}
+
+@media (min-width: 768px) {
+  .marging {
+    margin: 0 auto;
+  }
+
+}
 
 .ftco-counter .ftco-number {
   display: block;
